@@ -140,4 +140,4 @@ This project is open source and available under the [MIT License](LICENSE).
  
 ## Author
  
-**Brian** — [@Brisoft-ke](https://github.com/Devbrian-ke)
+**Brian** — [@Devbrian-ke](https://github.com/Devbrian-ke)
