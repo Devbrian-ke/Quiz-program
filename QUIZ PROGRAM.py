@@ -2,7 +2,7 @@
 
 def run_quiz(questions):
     score = 0
-    print("🧠 Welcome to the Ultimate Python Quiz!")
+    print(" Welcome to the Ultimate Python Quiz!")
     print("--------------------------------------\n")
 
     for question in questions:
@@ -12,18 +12,18 @@ def run_quiz(questions):
         answer = input("Your answer (A/B/C/D): ").upper()
 
         if answer == question["answer"]:
-            print("✅ Correct!\n")
+            print(" Correct!\n")
             score += 1
         else:
-            print(f"❌ Incorrect! The correct answer was {question['answer']}\n")
+            print(f"Incorrect! The correct answer was {question['answer']}\n")
 
-    print(f"🎯 You got {score} out of {len(questions)} correct!")
+    print(f" You got {score} out of {len(questions)} correct!")
     if score == len(questions):
-        print("🔥 You're a Python master!")
+        print(" You're a Python master!")
     elif score >= len(questions) // 2:
-        print("👏 Not bad! Keep sharpening your skills.")
+        print(" Not bad! Keep sharpening your skills.")
     else:
-        print("💡 Keep learning. You're on the path!")
+        print(" Keep learning. You're on the path!")
 
 # List of questions
 quiz_questions = [
